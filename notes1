@@ -1,0 +1,250 @@
+@import url(//db.onlinewebfonts.com/c/01461efda105230dd1f71f4257db8144?family=PizzaHut+Font);
+
+
+.shoopingcart{
+    width: 20px;
+}
+.topnavimg{
+    width: 60px;
+
+}
+
+body{
+   padding-top: 3em;
+   justify-items: center;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.bigimg{
+    width: 100%;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin-top: 5em;
+
+}
+ul li{
+    padding-right: 60px;
+    /* display: block; */
+    /* position:sticky; */
+    
+
+}
+.topNav{    
+    box-shadow: 1px 1px 10px gray;
+
+    
+}
+li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.hrline{
+    display: flex;
+    flex-grow: 1;
+    margin-top: 30px;
+    text-decoration: none;
+    border-top: double 7px;
+    color: red;
+    
+    
+       
+   
+    
+}
+/* middlenavbtm */
+.middlenav{
+    display: flex;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(223, 7, 7);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+    
+}
+
+.middlen{
+    display: inline-flex;
+    align-items: center; 
+    margin:18px
+    
+}
+.middleb{
+    /* display: flex; */
+    font-size: 20px ;
+   width: 10px;
+
+    
+    }
+
+.middlebottom{
+    background-color: red;
+    border-radius: 5px;
+    flex-grow: 4;
+    flex-shrink: 0;
+
+}
+/* secondcontainer */
+.featured{
+    margin-top: 5em;
+    flex-flow:nowrap;
+
+}
+.featurep{
+    /* margin-left: 1em;
+    margin-top: .75em; */
+    color: red;
+    display: grid;
+    justify-content:right;
+}
+
+/* container2 */
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* flex-grow: 0;
+    flex-shrink: 0; */
+}
+.container2div{
+    display: flex;
+    background-color: #fff;
+    /* font-size: 14px; */
+    /* flex-shrink: 1;
+    flex-grow: 1; */
+    border-radius: 10px;
+    /* flex-basis: 200px; */
+    box-shadow: 1px 5px 10px gray;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    
+    /* flex-wrap: wrap; */
+    
+    /* flex-direction: row; */
+    /* flex-basis: 700px; */
+    /* margin: 10px; */
+}
+.descriptionmini, h4, p{
+    display: flex;
+    
+    margin-left: 30px;
+    
+    }
+
+.container2 p{
+    display: flex;
+    /* flex-shrink: 0; */
+    /* width : 300px; */
+    /* gap:10px; */
+    flex-wrap: wrap;
+    
+
+}
+
+.secondcont{
+    /* width: 200px; */
+    
+    border-radius: 5px;
+    flex-shrink: 0;
+    
+}
+
+ h4 p{
+    display: flex;
+    ;
+}
+
+/* minicontainer  */
+.minicontainer{
+    /* display */
+}
+.minicontainerb, img{
+    border-radius: 10px;
+    object-fit:scale-down;
+    flex-shrink: 0;
+}
+/* .descriptionmini{
+    display: flex inline;
+    align-items: flex-end;
+} */
+
+ .minicontainerb{
+    /* border: solid 1px; */
+    display: flex;
+    background-color: #fff;
+    font-size: 14px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    flex-basis: 200px;
+    box-shadow: 1px 5px 10px gray;
+    flex-wrap: wrap;
+    align-items: center;
+
+    
+    flex-direction: row;
+    /* flex-basis: 300px */
+    margin: 20px;
+}
+
+/* bottom container */
+.bottomcont{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-shrink: 0;
+  flex-grow: 3; */
+  align-content: center;
+  /* margin-top: 30px;  */
+
+}
+.bottomcont div{
+    margin: auto;
+    margin-top: 8%;
+}
+
+
+@media(min-width:800px){
+    .container2div{
+        flex-direction: row;
+    
+    }
+}
+
+
+
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    padding: 10px;
+    align-items: center;
+}
+li {
+    padding-left: 3em;
+}
+.shoopingcart{
+    display: flex;
+    justify-content: flex-end;
+}
+img{
+    align-items: center;
+} */

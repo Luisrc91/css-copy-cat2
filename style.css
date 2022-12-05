@@ -1,0 +1,361 @@
+*{
+    margin: auto;
+    /* display: inline; */
+    
+}
+.container{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    /* box-sizing: border-box; */
+    /* align-content: center; */
+}
+body{
+    min-width: 100vh;
+
+}
+
+.topnavimg{
+    width: 50px;
+}
+header{
+    margin-top: 3em;
+}
+
+.bigimg{
+    width: 100%;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin-top: 5em;
+
+}
+ul li{
+    list-style: none;
+}
+
+/* middlenavbottoms */
+.middlen{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 1px rgb(244, 28, 28);
+    
+    margin-top: 30px;
+    border-radius: 8px;
+    font-size: 30px;
+    
+
+}
+.middlebottom{
+    width: 200px;
+    border: solid 1px ;
+    background-color: rgb(244, 28, 28);
+    border-radius: 10px;
+    color: white;
+    padding-left: 30px;
+    
+}
+
+.featured{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* 2nd container */
+
+.container2{
+    margin-left: 300px;
+    margin-right: 300px;
+    /* min-width: 100vh; */
+    /* padding: auto;; */
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    
+}
+.cont2img{
+    border-radius: 10px 10px 0 0;
+
+    
+}
+.container2div{
+    margin-top: 20px;
+    background-color: #fff;
+
+    border-radius: 10px;
+    
+    box-shadow: 1px 5px 10px gray;
+   
+    align-content: center;
+}
+   /* hrline */
+   .hrline{
+    display: flex;
+    flex-grow: 1;
+    margin-top: 30px;
+    text-decoration: none;
+    border-top: double 7px;
+    color: red;
+    
+    
+       
+   
+    
+}
+/* pizza menu */
+.pizzamenu{
+    display: flex;
+flex-shrink: 0;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+/* minicontainer */
+.minicontainer{
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    /* min-width: 100vh; */
+    /* padding: auto;; */
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    
+}
+.minicontainerb{
+    margin-top: 20px;
+    background-color: #fff;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    
+    box-shadow: 1px 5px 10px gray;
+   
+    align-content: center;
+}
+
+
+/* bottom container */
+
+
+.bottomcont{
+    display:flex;
+ flex-wrap: wrap;
+
+    /* flex-shrink: 0;
+    flex-grow: 3; */
+    /* align-content: center; */
+    /* margin-top: 30px;  */
+    /* margin: auto; */
+    
+}
+.bottomcont div{
+    /* margin: auto; */
+    margin-top: 2%;
+   
+}
+.bottomcont img{
+    border-radius: 10px;
+    justify-content: ;
+}
+
+
+@media(min-width: 700px){
+
+
+
+body{
+   padding-top: 3em;
+   justify-items: center;
+    
+} */
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.bigimg{
+    width: 100%;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin-top: 5em;
+
+}
+ul li{
+    padding-right: 60px;
+    /* display: block; */
+    /* position:sticky;
+    
+
+}
+.topNav{    
+    box-shadow: 1px 1px 10px gray;
+
+    
+}
+li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.hrline{
+    display: flex;
+    flex-grow: 1;
+    margin-top: 30px;
+    text-decoration: none;
+    border-top: double 7px;
+    color: red;
+    
+    
+       
+   
+    
+}
+/* middlenavbtm */
+.middlenav{
+    display: flex;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(223, 7, 7);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+    
+}
+
+.middlen{
+    display: inline-flex;
+    align-items: center; 
+    margin:18px
+    
+}
+.middleb{
+    /* display: flex; */
+    font-size: 20px ;
+   width: 10px;
+
+    
+    }
+
+.middlebottom{
+    background-color: red;
+    border-radius: 5px;
+    flex-grow: 4;
+    flex-shrink: 0;
+
+}
+/* secondcontainer */
+.featured{
+    margin-top: 5em;
+    flex-flow:nowrap;
+
+}
+.featurep{
+    /* margin-left: 1em;
+    margin-top: .75em; */
+    color: red;
+    display: grid;
+    justify-content:right;
+}
+
+/* container2 */
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* flex-grow: 0;
+    flex-shrink: 0; */
+}
+.container2div{
+    display: flex;
+    background-color: #fff;
+    /* font-size: 14px; */
+    /* flex-shrink: 1;
+    flex-grow: 1; */
+    border-radius: 10px;
+    /* flex-basis: 200px; */
+    box-shadow: 1px 5px 10px gray;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    
+    /* flex-wrap: wrap; */
+    
+    /* flex-direction: row; */
+    /* flex-basis: 700px; */
+    /* margin: 10px; */
+}
+.descriptionmini, h4, p{
+    display: flex;
+    
+    margin-left: 30px;
+    
+    }
+
+.container2 p{
+    display: flex;
+    /* flex-shrink: 0; */
+    /* width : 300px; */
+    /* gap:10px; */
+    flex-wrap: wrap;
+    
+
+}
+
+.secondcont{
+    /* width: 200px; */
+    
+    border-radius: 5px;
+    flex-shrink: 0;
+    
+}
+
+ h4 p{
+    display: flex;
+    ;
+}
+
+/* minicontainer  */
+.minicontainer{
+    /* display */
+}
+.minicontainerb, img{
+    border-radius: 10px;
+    object-fit:scale-down;
+    flex-shrink: 0;
+}
+/* .descriptionmini{
+    display: flex inline;
+    align-items: flex-end;
+} */
+
+ .minicontainerb{
+    /* border: solid 1px; */
+    display: flex;
+    background-color: #fff;
+    font-size: 14px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    flex-basis: 200px;
+    box-shadow: 1px 5px 10px gray;
+    flex-wrap: wrap;
+    align-items: center;
+
+    
+    flex-direction: row;
+    /* flex-basis: 300px */
+    margin: 20px;
+}
+
+/* bottom container */
+.bottomcont{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-shrink: 0;
+  flex-grow: 3; */
+  align-content: center;
+  /* margin-top: 30px;  */
+
+}
+.bottomcont div{
+    margin: auto;
+    margin-top: 8%;
+}
+
